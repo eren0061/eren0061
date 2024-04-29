@@ -1,0 +1,13 @@
+import pyautogui   #gerekli kütüphane
+import time        #gerekli kütüphane
+
+time.sleep(0)
+
+def mesaj():
+    pyautogui.write("bişe deniyom helal et")  #yazacağınız mesajı girin
+    pyautogui.press('enter')
+
+    
+while True:
+    mesaj()
+    time.sleep(0)  #bekleme süresi istediğiniz gibi ayarlıyabilirsiniz
